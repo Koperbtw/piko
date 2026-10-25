@@ -2,12 +2,12 @@ group = "crimera"
 
 patches {
     about {
-        name = "Piko"
-        description = "Morphe patches focused on Twitter/X"
-        source = "git@github.com:crimera/piko.git"
+        name = "Piko (Koperbtw)"
+        description = "Morphe patches for Twitter/X and Instagram, including a Reels auto-scroll toggle"
+        source = "git@github.com:Koperbtw/piko.git"
         author = "crimera"
         contact = "na"
-        website = "https://github.com/crimera/piko"
+        website = "https://github.com/Koperbtw/piko"
         license = "GNU General Public License v3.0"
     }
 }

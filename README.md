@@ -22,7 +22,11 @@ Starting with patches v3.0.0, Piko patches use [Morphe](https://morphe.software)
 
 Tap the link to add Piko as a patch source in Morphe Manager:
 
-[**➕ Add Piko to Morphe**](https://morphe.software/add-source?github=crimera/piko)
+[**➕ Add Piko (Koperbtw) to Morphe**](https://morphe.software/add-source?github=Koperbtw/piko)
+
+This fork includes the **Disable Reels auto-scroll** patch. After adding this source,
+patch Instagram with that patch selected, then enable **Piko settings → Distraction free →
+Disable Reels auto-scroll** and restart Instagram.
 
 Then patch Twitter/X or Instagram:
 1. Tap X or Instagram app icon in Morphe
