@@ -93,6 +93,8 @@
     <string name="piko_focus_lock_locked_toast">Focus Lock enabled.</string>
     <string name="piko_focus_lock_blocked_action">Not available while Focus Lock is active.</string>
     <string name="piko_disable_reels_scrolling">Disable Reels scrolling</string>
+    <string name="piko_disable_reels_auto_scroll">Disable Reels auto-scroll</string>
+    <string name="piko_disable_reels_auto_scroll_desc">Disables hands-free auto-scrolling in Reels. You can still swipe to the next Reel manually. Restart Instagram to apply the change.</string>
     <string name="piko_disable_reels_scrolling_desc">Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the \'Tip\' animation may appear but will stop on its own after a few seconds.</string>
     <string name="piko_disable_swipe_to_create">Disable swipe to create</string>
     <string name="piko_disable_swipe_to_create_desc">Prevents opening the creation screen by swiping right on the home tab.</string>

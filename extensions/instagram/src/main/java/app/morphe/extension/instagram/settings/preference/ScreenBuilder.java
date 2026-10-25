@@ -447,6 +447,15 @@ public class ScreenBuilder {
                     )
             );
         }
+        if (SettingsStatus.disableReelsAutoScroll) {
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_disable_reels_auto_scroll"),
+                            str("piko_disable_reels_auto_scroll_desc"),
+                            Settings.DISABLE_REELS_AUTO_SCROLL
+                    )
+            );
+        }
         if (SettingsStatus.disableReelsScrolling) {
             addLockableSwitch(
                     str("piko_disable_reels_scrolling"),

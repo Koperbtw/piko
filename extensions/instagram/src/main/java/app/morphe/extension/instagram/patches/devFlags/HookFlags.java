@@ -91,6 +91,16 @@ public class HookFlags {
     public static Boolean handleBoolFlags(long mobileConfigSpecifier) {
         try {
             DeveloperOptionsItem developerOptionsItem = new DeveloperOptionsItem(mobileConfigSpecifier);
+            String configId = developerOptionsItem.getConfigId();
+
+            // ig_reels_android_hands_free_mode: enabled / per_session_autoscroll_enabled.
+            // Check before recommended flags so an explicit opt-out takes precedence.
+            // Read the preference per call to avoid retaining an override after it is disabled.
+            if (("83371::0".equals(configId) || "83371::10".equals(configId))
+                    && Pref.disableReelsAutoScroll()) {
+                return false;
+            }
+
             // Sometimes I want to block all the subflags inside a universal ID.
             // In which case I would only add the universal ID in the BOOL_MAP map.
             // If a boolean value is found then it will return else it will check for for the usual config ID
@@ -98,7 +108,6 @@ public class HookFlags {
             Boolean universalFlag = BOOL_FLAGS.getOrDefault(universalId, null);
             if(universalFlag!=null) return universalFlag;
 
-            String configId = developerOptionsItem.getConfigId();
             return BOOL_FLAGS.getOrDefault(configId, null);
         } catch (Exception e) {
             PikoUtils.logger(e);

@@ -142,6 +142,10 @@ public class SettingsStatus {
     public static void disableReelsScrolling() {
         disableReelsScrolling = true;
     }
+    public static boolean disableReelsAutoScroll = false;
+    public static void disableReelsAutoScroll() {
+        disableReelsAutoScroll = true;
+    }
     public static boolean disableSwipeToCreate = false;
     public static void disableSwipeToCreate() {
         disableSwipeToCreate = true;
@@ -178,7 +182,7 @@ public class SettingsStatus {
         hideReshareButton = true;
     }
     public static boolean distractionFreeSection() {
-        return (hideReelsFollowButton || disableDoubleTapLike || hideNotesTray || disableHighlights || disableStories || disableExplore || disableComments || hideStoriesTray || limitFollowingFeed || disableVideoAutoplay || disableDiscoverPeople || hideGroupCreationOnSharesheet || hideReshareButton || hideSaveButtons || hideShareButton || disableReelsScrolling || disableSwipeToCreate || focusLock);
+        return (hideReelsFollowButton || disableDoubleTapLike || hideNotesTray || disableHighlights || disableStories || disableExplore || disableComments || hideStoriesTray || limitFollowingFeed || disableVideoAutoplay || disableDiscoverPeople || hideGroupCreationOnSharesheet || hideReshareButton || hideSaveButtons || hideShareButton || disableReelsScrolling || disableReelsAutoScroll || disableSwipeToCreate || focusLock);
     }
 
     //Misc section.
@@ -300,6 +304,7 @@ public class SettingsStatus {
         FLAGS.put(str("piko_disable_double_tap_to_like"),SettingsStatus.disableDoubleTapLike);
         FLAGS.put(str("piko_hide_group_creation_button_on_sharesheet"),SettingsStatus.hideGroupCreationOnSharesheet);
         FLAGS.put(str("piko_hide_reels_follow_button"),SettingsStatus.hideReelsFollowButton);
+        FLAGS.put(str("piko_disable_reels_auto_scroll"),SettingsStatus.disableReelsAutoScroll);
         FLAGS.put(str("piko_limit_following_feed"),SettingsStatus.limitFollowingFeed);
         FLAGS.put(str("piko_hide_notes_tray"),SettingsStatus.hideNotesTray);
         FLAGS.put(str("piko_hide_stories_tray"),SettingsStatus.hideStoriesTray);
