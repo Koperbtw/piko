@@ -15,7 +15,7 @@ import app.morphe.patcher.patch.bytecodePatch
 @Suppress("unused")
 val disableReelsAutoScrollPatch = bytecodePatch(
     name = "Disable Reels auto-scroll",
-    description = "Adds an option to disable hands-free auto-scrolling in Reels while keeping manual swiping available.",
+    description = "Disables the option to auto-scroll Reels.",
 ) {
     compatibleWith(COMPATIBILITY_INSTAGRAM)
 

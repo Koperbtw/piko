@@ -26,7 +26,7 @@ Tap the link to add Piko as a patch source in Morphe Manager:
 
 This fork includes the **Disable Reels auto-scroll** patch. After adding this source,
 patch Instagram with that patch selected, then enable **Piko settings → Distraction free →
-Disable Reels auto-scroll** and restart Instagram.
+Disable Reels auto-scroll**.
 
 Then patch Twitter/X or Instagram:
 1. Tap X or Instagram app icon in Morphe

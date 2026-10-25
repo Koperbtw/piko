@@ -89,6 +89,8 @@
     <string name="piko_focus_lock_locked_toast">Blokada skupienia włączona.</string>
     <string name="piko_focus_lock_blocked_action">Niedostępne, gdy blokada skupienia jest aktywna.</string>
     <string name="piko_disable_reels_scrolling">Wyłącz przewijanie rolek</string>
+    <string name="piko_disable_reels_auto_scroll">Wyłącz automatyczne przewijanie rolek</string>
+    <string name="piko_disable_reels_auto_scroll_desc">Wyłącza opcję automatycznego przewijania rolek.</string>
     <string name="piko_disable_reels_scrolling_desc">Wyłącza nieskończone przewijanie rolek na Instagramie, blokując przejście do następnej. Uwaga: Po czystej instalacji może pojawić się animacja podpowiedzi, ale po kilku sekundach sama zniknie.</string>
     <string name="piko_disable_swipe_to_create">Wyłącz gest tworzenia</string>
     <string name="piko_disable_swipe_to_create_desc">Blokuje otwieranie ekranu tworzenia po przesunięciu w prawo na stronie głównej</string>
