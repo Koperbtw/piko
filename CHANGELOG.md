@@ -1,3 +1,13 @@
+## [3.11.0](https://github.com/Koperbtw/piko/compare/v3.10.0...v3.11.0) (2026-10-25)
+
+### 🐛 Bug Fixes
+
+* **ci:** Publish Morphe bundles from the fork ([3a48cdd](https://github.com/Koperbtw/piko/commit/3a48cddf726963915ad04d1363a35af209b5ea42))
+
+### ✨ New Features
+
+* **Instagram:** Add option to disable Reels auto-scroll ([9643469](https://github.com/Koperbtw/piko/commit/9643469c1505044a748163866e36350c9911a148))
+
 ## [3.10.0](https://github.com/crimera/piko/compare/v3.9.0...v3.10.0) (2026-10-10)
 
 ### 🐛 Bug Fixes
