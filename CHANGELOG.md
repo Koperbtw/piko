@@ -1,3 +1,9 @@
+## [3.11.1](https://github.com/Koperbtw/piko/compare/v3.11.0...v3.11.1) (2026-10-25)
+
+### 🐛 Bug Fixes
+
+* **Instagram:** Simplify Reels auto-scroll description and add Polish translation ([1e9cb15](https://github.com/Koperbtw/piko/commit/1e9cb152714084962e421973ce8c205f31d814ff))
+
 ## [3.11.0](https://github.com/Koperbtw/piko/compare/v3.10.0...v3.11.0) (2026-10-25)
 
 ### 🐛 Bug Fixes

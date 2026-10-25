@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "3.11.0",
+  "version": "3.11.1",
   "patches": [
     {
       "name": "Add ability to copy media link",
@@ -1087,7 +1087,7 @@
     },
     {
       "name": "Disable Reels auto-scroll",
-      "description": "Adds an option to disable hands-free auto-scrolling in Reels while keeping manual swiping available.",
+      "description": "Disables the option to auto-scroll Reels.",
       "default": true,
       "dependencies": [
         "BytecodePatch",

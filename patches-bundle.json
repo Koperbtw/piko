@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-25T14:30:53",
-  "description": "## [3.11.0](https://github.com/Koperbtw/piko/compare/v3.10.0...v3.11.0) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **ci:** Publish Morphe bundles from the fork ([3a48cdd](https://github.com/Koperbtw/piko/commit/3a48cddf726963915ad04d1363a35af209b5ea42))\n\n### ✨ New Features\n\n* **Instagram:** Add option to disable Reels auto-scroll ([9643469](https://github.com/Koperbtw/piko/commit/9643469c1505044a748163866e36350c9911a148))",
-  "download_url": "https://github.com/Koperbtw/piko/releases/download/v3.11.0/patches-3.11.0.mpp",
+  "created_at": "2026-10-25T14:44:20",
+  "description": "## [3.11.1](https://github.com/Koperbtw/piko/compare/v3.11.0...v3.11.1) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Simplify Reels auto-scroll description and add Polish translation ([1e9cb15](https://github.com/Koperbtw/piko/commit/1e9cb152714084962e421973ce8c205f31d814ff))",
+  "download_url": "https://github.com/Koperbtw/piko/releases/download/v3.11.1/patches-3.11.1.mpp",
   "signature_download_url": "",
-  "version": "3.11.0"
+  "version": "3.11.1"
 }
